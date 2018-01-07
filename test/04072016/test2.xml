@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://dhbw-stammbaum.de/test/04072016/Trees.xsl"?>
-<Tree>
- <Person FirstName="Bruhdingo" LastName="Vater" Gender="male" Birthday="2016-07-04" Death="2016-07-04" ID="1" ChildOf="0" MarriedTo=""/>
- <Person FirstName="Momdingo" LastName="Mutter" Gender="" Birthday="2016-07-04" Death="2016-07-04" ID="2" ChildOf="" MarriedTo="1"/>
- <Person FirstName="Test" LastName="Test" Gender="" Birthday="2016-07-04" Death="2016-07-04" ID="3" ChildOf="1" MarriedTo=""/>
- 
- </Tree>
