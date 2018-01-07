@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://dhbw-stammbaum.de/Trees.xsl"?>
+<Tree>
+ <Person FirstName="Sandra" LastName="Herglotz" Gender="female" Birthday="2016-07-15" ID="1" ChildOf="0" MarriedTo=""/>
+ <Person FirstName="Marco" LastName="Herglotz" Gender="male" Birthday="2016-07-08" ID="2" ChildOf="1" MarriedTo=""/>
+</Tree>

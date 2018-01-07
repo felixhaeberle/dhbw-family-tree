@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="./Trees.xsl"?>
+
+<Tree>
+    
+    <Person ID="1" FirstName="Vater"  LastName="Testerson" ChildOf="0" Gender="male" MarriedTo="" Birthday="2002-09-25"/>
+    <Person ID="2" FirstName="Mutter" LastName="Testerson" ChildOf="" Gender="female" MarriedTo="1" Birthday="2002-09-25"/>
+    <Person ID="3" FirstName="Kind" LastName="Testerson" ChildOf="1" Gender="female" MarriedTo="" Birthday="2002-09-25"/>
+	<Person ID="6" FirstName="Schwiegertochter" LastName="Testerson" Gender="male" ChildOf="" MarriedTo="3" Birthday="2002-09-25"/>
+   
+	<Person ID="4" FirstName="Enkel 1" LastName="Testerson" ChildOf="3" MarriedTo="" Gender="male"  Birthday="2002-09-25"/>
+	<Person ID="5" FirstName="Enkel 2" LastName="Testerson" ChildOf="3" MarriedTo="" Gender="male"  Birthday="2002-09-25"/>
+	<Person ID="7" FirstName="Enkel 3" LastName="Testerson" ChildOf="3" MarriedTo="" Gender="male"  Birthday="2002-09-25"/>
+	<Person ID="8" FirstName="Enkel 4" LastName="Testerson" ChildOf="3" Gender="female"  MarriedTo="9" Birthday="2002-09-25"/>
+	<Person ID="9" FirstName="Enkels 4 Frau" LastName="Testerson" Gender="male" ChildOf="" MarriedTo="8" Birthday="2002-09-25"/>
+	<Person ID="10" FirstName="Großenkel 1" LastName="Testerson" ChildOf="8" Gender="female"  MarriedTo="" Birthday="2002-09-25"/>
+    <Person ID="11" FirstName="Großenkel 2" LastName="Testerson" Gender="male"  ChildOf="8" MarriedTo="" Birthday="2002-09-25"/>
+	</Tree>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

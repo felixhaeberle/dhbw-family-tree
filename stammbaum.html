@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-DE">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Felix Häberle" />
+    <meta name="year" content="2016" />
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700%7CRoboto:300,400,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+	<!-- One Page Module Specific CSS -->
+	<link rel="stylesheet" href="css/onepage.css" type="text/css" />
+
+	<!-- Basic Design CSS -->
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
+    
+    <!-- Bootstrap Switch CSS -->
+	<link rel="stylesheet" href="css/components/bs-switches.css" type="text/css" />
+    <!-- Bootstrap Switch CSS -->
+    <link rel="stylesheet" href="css/components/bs-select.css" type="text/css" />
+    <!-- Bootstrap File Upload CSS -->
+	<link rel="stylesheet" href="css/components/bs-filestyle.css" type="text/css" />
+    
+    <!-- Radio Checkbox CSS -->
+	<link rel="stylesheet" href="css/components/radio-checkbox.css" type="text/css" />
+    <!-- Date & Time Picker CSS -->
+	<link rel="stylesheet" href="css/datepicker.css" type="text/css" />
+	<link rel="stylesheet" href="css/components/timepicker.css" type="text/css" />
+	<link rel="stylesheet" href="css/components/daterangepicker.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+	<!-- Document Title
+	============================================= -->
+	<title>Mein Stammbaum | Projektarbeit DHBW Karlsruhe</title>
+
+</head>
+
+<body class="stretched side-push-panel overlay-menu">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header transparent-header static-sticky">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="#" class="standard-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="Stammbaum"></a>
+						<a href="#" class="retina-logo" data-dark-logo="images/logo@2x.png"><img src="images/logo@2x.png" alt="Stammbaum"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="80">
+							<li><a href="#wrapper" data-href="#wrapper"><div>Start 🔝</div></a></li>
+							<li><a href="#stammbaum-erstellen" data-href="#stammbaum-erstellen"><div>Stammbaum erstellen 📝</div></a></li>
+							<li><a href="howto.html" data-href="howto.html"><div>Upload HowTo ?</div></a></li>
+						</ul>
+
+						<a href="#" id="overlay-menu-close" class="visible-lg-block visible-md-block"><i class="icon-line-cross"></i></a>
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-parallax full-screen force-full-screen">
+
+			<div class="slider-parallax-inner">
+
+				<div class="full-screen force-full-screen section nobg nopadding nomargin noborder ohidden">
+					<div class="container clearfix">
+
+						<div class="vertical-middle center">
+							<div class="counter center opm-large-counter"><span data-from="2015" data-to="1250" data-refresh-interval="100" data-speed="1000000"></span></div>
+						</div>
+
+						<div class="vertical-middle center">
+							<div class="emphasis-title nobottommargin">
+								<h1 class="uppercase t600" style="font-size: 75px; letter-spacing: 15px;">Stammbaum</h1>
+								<p class="lead nobottommargin">Erstelle dir und deiner Familie einen Stammbaum mit nur einem Klick!</p>
+                                <a class="button button-border button-circle button-black topmargin-lg" href="#" data-scrollto="#stammbaum-erstellen" data-easing="easeInOutExpo" data-speed="2000" data-offset="80">Los geht's!</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<a href="#" data-scrollto="#stammbaum-erstellen" data-easing="easeInOutExpo" data-speed="1750" data-offset="70" class="one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+
+			</div>
+
+		</section><!-- #slider end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap nopadding">
+
+				<div class="center page-section">
+
+					<div class="container clearfix">
+
+						<h2 id="stammbaum-erstellen" class="divcenter bottommargin font-body" style="max-width: 700px; font-size: 40px;">Stammbaum erstellen</h2>
+
+							<div class="form-process"></div>
+								   
+							<form class="nobottommargin" id="stammbaum-formular" name="stammbaum-formular" action="CombinedProcess.php" method="post" enctype="multipart/form-data">
+                               
+                                <div id="readroot">                              
+                                
+								<h2 class="topmargin-sm">Person hinzufügen</h2>
+                                
+                                <div class="clear"></div>
+                                                              
+								<div class="col_one_fifth">
+									<label for="first-name">Vorname <small>*</small></label>
+									<input type="text" id="txtfirstname" name="" value="" class="sm-form-control " />
+								</div>
+
+								<div class="col_one_fifth">
+									<label for="last-name">Nachname <small>*</small></label>
+									<input type="text" id="txtlastname" name="" value="" class="sm-form-control " />
+								</div>
+                                
+								<div class="col_one_fifth">
+                                    <label for="gender">Geschlecht <small>*</small></label>
+									<select id="cbgender" name="gender" class="selectpicker" data-width="100%">
+										<option value="">Bitte wählen</option>
+										<option value="male">Männlich</option>
+										<option value="female">Weiblich</option>
+									</select>
+								</div>
+                               
+                                <div class="col_one_fifth">
+									<label for="birth">Geburt <small>*</small></label>
+									<input type="date" id="dpbirth" name="" class="sm-form-control daterange " value="" />
+								</div>
+                                
+                                <div class="col_one_fifth col_last">
+									<!--<input type="checkbox" class="checkbox-style" name="death-true" id="death-true"/>-->
+                                    <label for="death-true">Tod<!--<sup> klick!</sup>--></label>
+									<input type="date" id="dpdeath" name="" class="sm-form-control daterange" value=""/>
+								</div>
+
+								<div class="clear"></div>
+                                
+                                <div class="col_one_fourth"></div>
+                                <div class="col_one_fourth">
+									<label for="child-of">Kind von <small>*</small></label>
+									<select name="" id="cbchild" class="selectpicker daterange" data-live-search="true" data-max-options="2" data-width="100%" multiple />
+                                      
+                                    </select>
+								</div>
+                                
+                                <div class="col_one_fourth col_last">
+									<label for="married-to">Verheiratet mit <small>*</small></label>
+									<select name="" id="married-to" class="selectpicker daterange" data-live-search="true" data-max-options="1" data-width="100%" multiple />
+                                      
+                                    </select>
+								</div>
+								<input type="text" style="display:none;" name="firstnames" id="firstfrm"/>
+								<input type="text" style="display:none;" name="lastnames" id="lastfrm"/>
+								<input type="text" style="display:none;" name="genders" id="gendersfrm"/>
+								<input type="text" style="display:none;" name="births" id="birthsfrm"/>
+								<input type="text" style="display:none;" name="deaths" id="deathsfrm"/>
+								<input type="text" style="display:none;" name="childs" id="childsfrm"/>
+								<input type="text" style="display:none;" name="marriages" id="marriagesfrm"/>
+								
+                                <div class="clear"></div>
+                                
+                                
+                                
+                                <div class="clear"></div>
+                                
+                                </div>                               
+                         
+                               	<span id="writeroot"></span>
+                                <div class="clear"></div>
+                                
+                                <div class="col_full">
+									<input class="button button-circle button-small button-border topmargin-sm" id="btnaddperson" type="button" onclick="" value="Zusätzliche Person hinzufügen" />
+								</div>
+                                
+                                <h2 class="divcenter bottommargin topmargin">XML-Upload für einen großen Stammbaum<a href="howto.html" class="grayscale"><sup>HowTo</sup></a></h2>
+                                
+                                <div class="col_full">
+                                	<label>XML - Upload</label><br>
+                                    <input id="upload-xml" name="upload-xml" type="file" multiple class="file-loading">
+                                    <div id="errorBlock" class="help-block"></div>
+                                </div>
+                                
+                                <div class="col_one_third"></div>
+								<div class="col_one_third col_last topmargin-sm g-recaptcha" data-sitekey="6LewxiATAAAAAB_1Q5dXEosgS4_sDiRD5DfBIeuy">
+								</div>
+								
+                                <div class="col_full hidden">
+									<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+								</div>
+
+								<div class="col_full">
+									<button class="button button-xlarge button-black button-circle button-border" type="submit" name="submit" id="submit">Stammbaum erstellen</button>
+								</div>
+                                
+							</form>
+                            
+						<div class="clear"></div>
+
+					</div>
+
+				</div>
+
+
+				
+
+			
+
+					
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark noborder">
+
+			<div class="container center">
+				<div class="footer-widgets-wrap">
+
+					<div class="row divcenter clearfix">
+
+						<div class="col-md-4">
+
+							<div class="widget clearfix">
+								<h4>Menü 📇</h4>
+
+								<ul class="list-unstyled footer-site-links nobottommargin">
+									<li><a href="#wrapper" data-href="#wrapper"><div>Start</div></a></li>
+                                    <li><a href="#stammbaum-erstellen" data-href="#stammbaum-erstellen"><div>Stammbaum erstellen</div></a></li>
+                                    <li><a href="howto.html" data-href="howto.html"><div>Upload HowTo</div></a></li>
+								</ul>
+							</div>
+
+						</div>
+
+						<div class="col-md-4">
+
+							<div class="widget subscribe-widget clearfix" data-loader="button">
+								<h4>Suche 🔎</h4>
+
+								<div class="search"></div>
+								<form id="search" action="../search.php" method="post" class="nobottommargin">
+									<input type="text" id="search-box" name="name" class="form-control input-lg not-dark required email" placeholder="Nach Person suchen">
+									<button class="button button-border button-circle button-light topmargin-sm" type="submit">Jetzt suchen!</button>
+								</form>
+							</div>
+
+						</div>
+
+						<div class="col-md-4">
+
+							<div class="widget clearfix">
+								<h4>Kontakt 📱</h4>
+								<p class="lead">Erzbergerstraße 121<br>76133 Karlsruhe</p>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div id="copyrights">
+				<div class="container center clearfix">
+					Copyright 2016 | <a class="grayscale" href="team.html">Projektteam DHBW Stammbaum</a> | Alle Rechte vorbehalten
+				</div>
+				<div class="container center clearfix">
+					<a class="grayscale" href="impressum.html">Impressum</a>
+				</div>
+			</div>
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+    
+    <!-- Bootstrap Switch Plugin -->
+	<script type="text/javascript" src="js/components/bs-switches.js"></script>
+    <!-- Bootstrap Select Plugin -->
+    <script type="text/javascript" src="js/components/bs-select.js"></script>
+    <!-- Bootstrap File Upload Plugin -->
+	<script type="text/javascript" src="js/components/bs-filestyle.js"></script>
+    
+    <!-- Date & Time Picker JS -->
+	<script type="text/javascript" src="js/components/moment.js"></script>
+	<script type="text/javascript" src="js/components/datepicker.js"></script>
+	<script type="text/javascript" src="js/components/timepicker.js"></script>
+
+	<!-- Include Date Range Picker -->
+	<script type="text/javascript" src="js/components/daterangepicker.js"></script>
+    
+    <!-- Google Recaptcha Plugin -->
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>  
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+
+	
+	
+
+    <script type="text/javascript">
+
+	</script>
+	<script type="text/javascript">
+	$index = 1;
+	
+	var firstnames = [];
+	var lastnames = [];
+	var genders = [];
+	var childs = [];
+	var marriage = [];
+	var births = [];
+	var deaths = [];
+	
+	$("#btnaddperson" ).click(function() {
+	if($('#dpbirth').val().length>0 && $('#txtfirstname').val().length>0 && $('#txtlastname').val().length>0 && $('#cbgender').val().length>0 ){
+		try{
+	    births.push($('#dpbirth').val());
+		deaths.push($('#dpdeath').val());
+		firstnames.push($('#txtfirstname').val());
+		lastnames.push($('#txtlastname').val());
+		
+		
+		var e = document.getElementById("cbgender");
+		var strUser = e.options[e.selectedIndex].value;
+		genders.push(strUser);
+		
+		
+		e = document.getElementById("cbchild");
+		if(e.selectedIndex!=-1){
+		strUser = e.options[e.selectedIndex].value;
+		}else{
+		strUser = -1;
+		}
+		childs.push(strUser);
+		
+		
+		e = document.getElementById("married-to");
+		if(e.selectedIndex!=-1){
+		strUser = e.options[e.selectedIndex].value;
+		}else{
+		strUser = -1;
+		}
+		marriage.push(strUser);
+		
+		$('#cbchild').append($('<option>', {
+                        value:$index,
+                        text: ($('#txtfirstname').val() +" "+ $('#txtlastname').val())
+                    }));
+		$('#married-to').append($('<option>', {
+                        value:$index,
+                        text: ($('#txtfirstname').val() +" "+ $('#txtlastname').val())
+                    }));
+					
+					
+		document.getElementById("firstfrm").value = JSON.stringify(firstnames);
+		document.getElementById("lastfrm").value = JSON.stringify(lastnames);
+		document.getElementById("gendersfrm").value = JSON.stringify(genders);
+		document.getElementById("birthsfrm").value = JSON.stringify(births);
+		document.getElementById("deathsfrm").value = JSON.stringify(deaths);
+		document.getElementById("childsfrm").value = JSON.stringify(childs);
+		document.getElementById("marriagesfrm").value = JSON.stringify(marriage);			
+					
+			
+					
+		$index = $index +1;	
+		$('#txtfirstname').val(null);
+		$('#txtlastname').val(null);
+		$('#cbgender').val(null);
+		$('#dpbirth').val(null);
+		$('#dpdeath').val(null);
+		$('#cbchild').val(null);
+		$('#married-to').val(null);
+		
+		$('#cbchild').selectpicker('refresh');
+		$('#married-to').selectpicker('refresh');
+		alert("Person wurde erfolgreich hinzugefügt");
+		}catch(err){}
+	}else{
+		alert("Vorname, Nachname, Geschlecht und Geburtstag sind Pflichtangaben!");
+	}
+		
+	});
+	</script>
+    <script type="text/javascript">
+	$(document).on('ready', function() {
+			$("#upload-xml").fileinput({
+			showUpload:false,
+			showPreview: false,
+			allowedFileExtensions: ["xml"],
+			elErrorContainer: "#errorBlock"
+		});
+	});
+	</script>
+</body>
+</html>

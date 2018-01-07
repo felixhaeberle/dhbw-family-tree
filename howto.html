@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Felix Häberle" />
+    <meta name="year" content="2016" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+	<!-- One Page Module Specific Stylesheet -->
+	<link rel="stylesheet" href="css/onepage.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+
+	<!-- Document Title
+	============================================= -->
+	<title>Mein Stammbaum | Projektarbeit DHBW Karlsruhe</title>
+
+</head>
+
+<body class="stretched side-push-panel overlay-menu">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header transparent-header static-sticky">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="#" class="standard-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="Stammbaum"></a>
+						<a href="#" class="retina-logo" data-dark-logo="images/logo@2x.png"><img src="images/logo@2x.png" alt="Stammbaum"></a>
+					</div><!-- #logo end -->
+                    
+                    <!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="80">
+							<li><a href="stammbaum.html" data-href="stammbaum.html"><div>Zurück zur Startseite 🔙</div></a></li>
+						</ul>
+
+						<a href="#" id="overlay-menu-close" class="visible-lg-block visible-md-block"><i class="icon-line-cross"></i></a>
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap nopadding">
+
+				<div class="center page-section">
+
+					<div class="container clearfix">
+
+						<h2 id="impressum" class="divcenter bottommargin font-body" style="max-width: 700px; font-size: 40px;">How To</h2>
+                        
+						<p>Diese Seite soll Ihnen erklären wie die XML-Datei, die Sie zur Verarbeitung auf unserer Seite hochladen können, formatiert sein muss.</p>
+
+						<div style="background: #ffffff; margin: 0 auto !important; overflow:auto;width:830px;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table style="margin-bottom:0px !important;"><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></td><td><pre style="margin: 0; line-height: 125%; text-align:left !important;"><span style="color: #008080">&lt;?xml version=&quot;1.0&quot;?&gt;</span>
+
+<span style="color: #008080">&lt;?xml-stylesheet type=&quot;text/xsl&quot; href=&quot;../Trees.xsl&quot;?&gt;</span>
+
+<span style="color: #000080; font-weight: bold">&lt;Tree&gt;</span>
+    
+    <span style="color: #000080; font-weight: bold">&lt;Person</span> <span style="color: #FF0000">ID=</span><span style="color: #0000FF">&quot;1&quot;</span> <span style="color: #FF0000">FirstName=</span><span style="color: #0000FF">&quot;Vater&quot;</span>  <span style="color: #FF0000">LastName=</span><span style="color: #0000FF">&quot;Müller&quot;</span> <span style="color: #FF0000">Gender=</span><span style="color: #0000FF">&quot;male&quot;</span> <span style="color: #FF0000">ChildOf=</span><span style="color: #0000FF">&quot;0&quot;</span> <span style="color: #FF0000">MarriedTo=</span><span style="color: #0000FF">&quot;&quot;</span> <span style="color: #FF0000">Birthday=</span><span style="color: #0000FF">&quot;2002-09-25&quot;</span> <span style="color: #FF0000">Death=</span><span style="color: #0000FF">&quot;2002-09-25&quot;</span><span style="color: #000080; font-weight: bold">/&gt;</span> 
+    <span style="color: #000080; font-weight: bold">&lt;Person</span> <span style="color: #FF0000">ID=</span><span style="color: #0000FF">&quot;2&quot;</span> <span style="color: #FF0000">FirstName=</span><span style="color: #0000FF">&quot;Mutter&quot;</span> <span style="color: #FF0000">LastName=</span><span style="color: #0000FF">&quot;Müller&quot;</span> <span style="color: #FF0000">Gender=</span><span style="color: #0000FF">&quot;female&quot;</span> <span style="color: #FF0000">ChildOf=</span><span style="color: #0000FF">&quot;&quot;</span> <span style="color: #FF0000">MarriedTo=</span><span style="color: #0000FF">&quot;1&quot;</span> <span style="color: #FF0000">Birthday=</span><span style="color: #0000FF">&quot;2002-09-25&quot;</span><span style="color: #000080; font-weight: bold">/&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;Person</span> <span style="color: #FF0000">ID=</span><span style="color: #0000FF">&quot;3&quot;</span> <span style="color: #FF0000">FirstName=</span><span style="color: #0000FF">&quot;Kind&quot;</span> <span style="color: #FF0000">LastName=</span><span style="color: #0000FF">&quot;Müller&quot;</span> <span style="color: #FF0000">Gender=</span><span style="color: #0000FF">&quot;male&quot;</span> <span style="color: #FF0000">ChildOf=</span><span style="color: #0000FF">&quot;2&quot;</span> <span style="color: #FF0000">MarriedTo=</span><span style="color: #0000FF">&quot;&quot;</span> <span style="color: #FF0000">Birthday=</span><span style="color: #0000FF">&quot;2002-09-25&quot;</span><span style="color: #000080; font-weight: bold">/&gt;</span>
+	
+<span style="color: #000080; font-weight: bold">&lt;/Tree&gt;</span>
+</pre></td></tr></table></div>
+
+					<p style="margin-top: 30px;">
+					Die XML-Datei muss einen Verweis auf das auf dem Server liegende XSLT-Stylesheet besitzen (siehe Zeile 2). Das Root-Element der XML-Datei ist der Tree-Tag, der die einzelnen Personenelemente beinhaltet.
+					Jede Person muss die Attribute ID, FirstName, LastName, Gender, ChildOf und Birthday besitzen (Death für den Fall, dass die Person verstorben ist). Die ID muss eine eindeutige positive Ganzzahl 
+					sein, sie darf also nicht mehrmals für unterschiedliche Personen verwendet werden. Der FirstName beinhaltet den Vornamen und LastName den Nachnamen der Person. ChildOf zeigt auf die ID des Vaters bzw. 
+					der Mutter Person. Die oberste Person Ihres Stammbaumes muss als ChildOf-Attribut "0" haben. Das Attribut Birthday muss ein Datum im Format YYYY-MM-DD beinhalten.  Im Falle einer verheirateten Person 
+					fügen sie noch das Attribut MarriedTo ein, das auf die ID des Partners zeigen soll. Der angeheiratete Partner muss als ChildOf Attribut "" besitzen.
+					</p>
+					   
+					<p>
+					Ihre Datei wird nach dem Upload außerdem mit Hilfe einer XSD-Datei validiert, um etwaige Fehler auzuschließen.
+					</p>
+                    <h4><a class="grayscale" href="stammbaum.html">Zurück zur Startseite</a></h4>
+
+                            
+					<div class="clear"></div>
+
+					</div>
+
+				</div>
+
+			</div>
+            
+
+		</section><!-- #content end -->
+
+		
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>

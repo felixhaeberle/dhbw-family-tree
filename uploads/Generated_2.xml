@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://dhbw-stammbaum.de/Trees.xsl"?>
+<Tree>
+ <Person FirstName="Mann " LastName="Test" Gender="male" Birthday="2016-07-12" ID="1" ChildOf="0" MarriedTo=""/>
+ <Person FirstName="Frau" LastName="Test" Gender="female" Birthday="2016-07-12" ID="2" ChildOf="" MarriedTo="1"/>
+ <Person FirstName="Kind1" LastName="test" Gender="male" Birthday="2016-07-13" ID="3" ChildOf="1" MarriedTo=""/>
+ <Person FirstName="Kind 2" LastName="test" Gender="female" Birthday="2016-07-12" ID="4" ChildOf="1" MarriedTo=""/>
+</Tree>

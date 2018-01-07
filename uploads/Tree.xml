@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../Trees.xsl"?>
+
+
+<Tree>
+    
+    <Person ID="1" FirstName="Elizabeth"  Gender="female" LastName="Mary" ChildOf="0" MarriedTo="" Birthday="1926-04-21" />
+	<Person ID="2" FirstName="Philip"  Gender="male" LastName="Mountbatten" ChildOf="" MarriedTo="1" Birthday="1921-06-10" Death="2002-09-25"/>
+	<Person ID="3" FirstName="Charles"  Gender="male" LastName="George" ChildOf="1" MarriedTo="" Birthday="1948-11-14"/>
+	
+	
+	<Person ID="4" FirstName="Anne"  Gender="female" LastName="Louise" ChildOf="1" MarriedTo="" Birthday="1948-11-14"/>
+	<Person ID="5" FirstName="Andrew"  Gender="male" LastName="Edward" ChildOf="1" MarriedTo="" Birthday="1960-02-19"/>
+	<Person ID="6" FirstName="Edward"  Gender="male" LastName="Louis" ChildOf="1" MarriedTo="" Birthday="1964-03-10"/>
+	<Person ID="7" FirstName="Diana"  Gender="female" LastName="Frances" ChildOf="" MarriedTo="3" Birthday="1961-07-01"/>
+	<Person ID="8" FirstName="William"  Gender="male" LastName="Louis" ChildOf="3" MarriedTo="" Birthday="1982-07-21"/>
+	<Person ID="9" FirstName="Catherine"  Gender="female" LastName="Elizabeth" ChildOf="" MarriedTo="8" Birthday="1982-01-09"/>
+	<Person ID="10" FirstName="Henry"  Gender="male" LastName="David" ChildOf="3" MarriedTo="" Birthday="1984-09-15"/>
+	<Person ID="11" FirstName="George"  Gender="male" LastName="Louis" ChildOf="8" MarriedTo="" Birthday="2015-09-15"/>
+	<Person ID="12" FirstName="Charlotte"  Gender="female" LastName="Diana" ChildOf="8" MarriedTo="" Birthday="2015-09-15"/>
+	
+	
+
+</Tree>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

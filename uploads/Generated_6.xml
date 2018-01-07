@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://dhbw-stammbaum.de/Trees.xsl"?>
+<Tree>
+ <Person FirstName="f" LastName="f" Gender="male" Birthday="1996-10-17" ID="1" ChildOf="0" MarriedTo=""/>
+ <Person FirstName="f" LastName="f" Gender="female" Birthday="1994-09-09" ID="2" ChildOf="1" MarriedTo=""/>
+</Tree>

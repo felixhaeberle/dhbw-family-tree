@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Tree">
+  <xs:complexType>
+    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="Person" type="Person"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:element>
+
+
+
+  <xs:complexType name ="Person">
+    <xs:attribute name="FirstName" type="NonEmptyString" use="required"/>
+    <xs:attribute name="LastName" type="NonEmptyString" use="required"/>
+	<xs:attribute name="ID" type="xs:integer" use="required"/>
+	<xs:attribute name="ChildOf" type="emptyInt" use="required"/>
+	<xs:attribute name="MarriedTo" type="emptyInt"/>
+	<xs:attribute name="Birthday" type="xs:date" use="required"/>
+	<xs:attribute name="Death" type="xs:date"/>
+	<xs:attribute name="Gender" type="gender"/>
+  </xs:complexType>
+
+  <xs:simpleType name="emptyInt">
+    <xs:union>
+        <xs:simpleType>
+            <xs:restriction base='xs:string'>
+                <xs:length value="0"/>
+            </xs:restriction>
+        </xs:simpleType>
+        <xs:simpleType>
+            <xs:restriction base='xs:integer'>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:union>
+</xs:simpleType>
+
+
+<xs:simpleType name="gender">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="male"/>
+      <xs:enumeration value="female"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+<xs:simpleType name='NonEmptyString'>
+<xs:restriction base='xs:string'>
+<xs:minLength value='1' />
+<xs:pattern value='.*[^\s].*' />
+</xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

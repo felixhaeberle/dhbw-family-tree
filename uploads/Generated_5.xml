@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://dhbw-stammbaum.de/Trees.xsl"?>
+<Tree>
+ <Person FirstName="Brunhilde" LastName="Schnuchel" Gender="female" Birthday="1923-04-05" Death="2012-10-08" ID="1" ChildOf="0" MarriedTo=""/>
+ <Person FirstName="Otto" LastName="Häberle" Gender="male" Birthday="1921-07-23" Death="2014-02-25" ID="2" ChildOf="" MarriedTo="1"/>
+ <Person FirstName="Axel" LastName="Häberle" Gender="male" Birthday="1956-12-30" ID="3" ChildOf="1" MarriedTo=""/>
+ <Person FirstName="Johanna" LastName="Häberle" Gender="female" Birthday="1957-10-07" ID="4" ChildOf="" MarriedTo="3"/>
+ <Person FirstName="Felix" LastName="Häberle" Gender="male" Birthday="1996-10-17" ID="5" ChildOf="3" MarriedTo=""/>
+ <Person FirstName="Nicola" LastName="Häberle" Gender="female" Birthday="1994-04-09" ID="6" ChildOf="3" MarriedTo=""/>
+ <Person FirstName="Regina" LastName="Häberle" Gender="female" Birthday="1992-02-02" ID="7" ChildOf="3" MarriedTo=""/>
+</Tree>
