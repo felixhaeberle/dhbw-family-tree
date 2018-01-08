@@ -9,6 +9,7 @@ We had to cope with various problems such as the presentation of the various rel
 Apart from normal input fields, the data can also be uploaded serially via an **XML file**, which saves a lot of work from entering the individual persons via the frontend.
 
 The markup should look like this if you want to upload your pedigree with an xml file.
+
 For more instructions visit the [HowTo](http://dhbw-stammbaum.de/howto.html) section.
 
 ```xml
