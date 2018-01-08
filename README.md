@@ -10,8 +10,6 @@ Apart from normal input fields, the data can also be uploaded serially via an **
 
 The markup should look like this if you want to upload your pedigree with an xml file.
 
-For more instructions visit the [HowTo](http://dhbw-stammbaum.de/howto.html) section.
-
 ```xml
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Trees.xsl"?>
@@ -21,5 +19,8 @@ For more instructions visit the [HowTo](http://dhbw-stammbaum.de/howto.html) sec
     <Person ID="3" FirstName="Kind" LastName="Müller" Gender="male" ChildOf="2" MarriedTo="" Birthday="2002-09-25"/>
 </Tree>
 ```
+
+For more instructions visit the [HowTo](http://dhbw-stammbaum.de/howto.html) section.
+
 
 ![Screenshot of www.dhbw-stammbaum.de](https://github.com/felixhaeberle/dhbw-family-tree/blob/master/screen.png)
