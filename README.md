@@ -22,5 +22,9 @@ The markup should look like this if you want to upload your pedigree with an xml
 
 For more instructions visit the [HowTo](http://dhbw-stammbaum.de/howto.html) section.
 
+### Contribution
+
+We're actively looking for someone to join the project and bring it further, so don't be shy and contact us.
+
 
 ![Screenshot of www.dhbw-stammbaum.de](https://github.com/felixhaeberle/dhbw-family-tree/blob/master/screen.png)
